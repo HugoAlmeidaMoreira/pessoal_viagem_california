@@ -1,0 +1,168 @@
+moviepy
+├── Clip.py
+├── Effect.py
+├── __init__.py
+├── __pycache__
+│   ├── Clip.cpython-312.pyc
+│   ├── Effect.cpython-312.pyc
+│   ├── __init__.cpython-312.pyc
+│   ├── config.cpython-312.pyc
+│   ├── decorators.cpython-312.pyc
+│   ├── tools.cpython-312.pyc
+│   └── version.cpython-312.pyc
+├── audio
+│   ├── AudioClip.py
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── AudioClip.cpython-312.pyc
+│   │   └── __init__.cpython-312.pyc
+│   ├── fx
+│   │   ├── AudioDelay.py
+│   │   ├── AudioFadeIn.py
+│   │   ├── AudioFadeOut.py
+│   │   ├── AudioLoop.py
+│   │   ├── AudioNormalize.py
+│   │   ├── MultiplyStereoVolume.py
+│   │   ├── MultiplyVolume.py
+│   │   ├── __init__.py
+│   │   └── __pycache__
+│   │       ├── AudioDelay.cpython-312.pyc
+│   │       ├── AudioFadeIn.cpython-312.pyc
+│   │       ├── AudioFadeOut.cpython-312.pyc
+│   │       ├── AudioLoop.cpython-312.pyc
+│   │       ├── AudioNormalize.cpython-312.pyc
+│   │       ├── MultiplyStereoVolume.cpython-312.pyc
+│   │       ├── MultiplyVolume.cpython-312.pyc
+│   │       └── __init__.cpython-312.pyc
+│   ├── io
+│   │   ├── AudioFileClip.py
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   ├── AudioFileClip.cpython-312.pyc
+│   │   │   ├── __init__.cpython-312.pyc
+│   │   │   ├── ffmpeg_audiowriter.cpython-312.pyc
+│   │   │   ├── ffplay_audiopreviewer.cpython-312.pyc
+│   │   │   └── readers.cpython-312.pyc
+│   │   ├── ffmpeg_audiowriter.py
+│   │   ├── ffplay_audiopreviewer.py
+│   │   └── readers.py
+│   └── tools
+│       ├── __init__.py
+│       └── cuts.py
+├── config.py
+├── decorators.py
+├── tools.py
+├── version.py
+└── video
+    ├── VideoClip.py
+    ├── __init__.py
+    ├── __pycache__
+    │   ├── VideoClip.cpython-312.pyc
+    │   └── __init__.cpython-312.pyc
+    ├── compositing
+    │   ├── CompositeVideoClip.py
+    │   ├── __init__.py
+    │   └── __pycache__
+    │       ├── CompositeVideoClip.cpython-312.pyc
+    │       └── __init__.cpython-312.pyc
+    ├── fx
+    │   ├── AccelDecel.py
+    │   ├── BlackAndWhite.py
+    │   ├── Blink.py
+    │   ├── Crop.py
+    │   ├── CrossFadeIn.py
+    │   ├── CrossFadeOut.py
+    │   ├── EvenSize.py
+    │   ├── FadeIn.py
+    │   ├── FadeOut.py
+    │   ├── Freeze.py
+    │   ├── FreezeRegion.py
+    │   ├── GammaCorrection.py
+    │   ├── HeadBlur.py
+    │   ├── InvertColors.py
+    │   ├── Loop.py
+    │   ├── LumContrast.py
+    │   ├── MakeLoopable.py
+    │   ├── Margin.py
+    │   ├── MaskColor.py
+    │   ├── MasksAnd.py
+    │   ├── MasksOr.py
+    │   ├── MirrorX.py
+    │   ├── MirrorY.py
+    │   ├── MultiplyColor.py
+    │   ├── MultiplySpeed.py
+    │   ├── Painting.py
+    │   ├── Resize.py
+    │   ├── Rotate.py
+    │   ├── Scroll.py
+    │   ├── SlideIn.py
+    │   ├── SlideOut.py
+    │   ├── SuperSample.py
+    │   ├── TimeMirror.py
+    │   ├── TimeSymmetrize.py
+    │   ├── __init__.py
+    │   └── __pycache__
+    │       ├── AccelDecel.cpython-312.pyc
+    │       ├── BlackAndWhite.cpython-312.pyc
+    │       ├── Blink.cpython-312.pyc
+    │       ├── Crop.cpython-312.pyc
+    │       ├── CrossFadeIn.cpython-312.pyc
+    │       ├── CrossFadeOut.cpython-312.pyc
+    │       ├── EvenSize.cpython-312.pyc
+    │       ├── FadeIn.cpython-312.pyc
+    │       ├── FadeOut.cpython-312.pyc
+    │       ├── Freeze.cpython-312.pyc
+    │       ├── FreezeRegion.cpython-312.pyc
+    │       ├── GammaCorrection.cpython-312.pyc
+    │       ├── HeadBlur.cpython-312.pyc
+    │       ├── InvertColors.cpython-312.pyc
+    │       ├── Loop.cpython-312.pyc
+    │       ├── LumContrast.cpython-312.pyc
+    │       ├── MakeLoopable.cpython-312.pyc
+    │       ├── Margin.cpython-312.pyc
+    │       ├── MaskColor.cpython-312.pyc
+    │       ├── MasksAnd.cpython-312.pyc
+    │       ├── MasksOr.cpython-312.pyc
+    │       ├── MirrorX.cpython-312.pyc
+    │       ├── MirrorY.cpython-312.pyc
+    │       ├── MultiplyColor.cpython-312.pyc
+    │       ├── MultiplySpeed.cpython-312.pyc
+    │       ├── Painting.cpython-312.pyc
+    │       ├── Resize.cpython-312.pyc
+    │       ├── Rotate.cpython-312.pyc
+    │       ├── Scroll.cpython-312.pyc
+    │       ├── SlideIn.cpython-312.pyc
+    │       ├── SlideOut.cpython-312.pyc
+    │       ├── SuperSample.cpython-312.pyc
+    │       ├── TimeMirror.cpython-312.pyc
+    │       ├── TimeSymmetrize.cpython-312.pyc
+    │       └── __init__.cpython-312.pyc
+    ├── io
+    │   ├── ImageSequenceClip.py
+    │   ├── VideoFileClip.py
+    │   ├── __init__.py
+    │   ├── __pycache__
+    │   │   ├── ImageSequenceClip.cpython-312.pyc
+    │   │   ├── VideoFileClip.cpython-312.pyc
+    │   │   ├── __init__.cpython-312.pyc
+    │   │   ├── display_in_notebook.cpython-312.pyc
+    │   │   ├── ffmpeg_reader.cpython-312.pyc
+    │   │   ├── ffmpeg_tools.cpython-312.pyc
+    │   │   ├── ffmpeg_writer.cpython-312.pyc
+    │   │   ├── ffplay_previewer.cpython-312.pyc
+    │   │   └── gif_writers.cpython-312.pyc
+    │   ├── display_in_notebook.py
+    │   ├── ffmpeg_reader.py
+    │   ├── ffmpeg_tools.py
+    │   ├── ffmpeg_writer.py
+    │   ├── ffplay_previewer.py
+    │   └── gif_writers.py
+    └── tools
+        ├── __init__.py
+        ├── __pycache__
+        │   └── __init__.cpython-312.pyc
+        ├── credits.py
+        ├── cuts.py
+        ├── drawing.py
+        ├── interpolators.py
+        └── subtitles.py
