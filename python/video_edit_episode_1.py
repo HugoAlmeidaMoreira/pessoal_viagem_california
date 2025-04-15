@@ -5,9 +5,9 @@ import os
 
 # --- Configurações ---
 # MUDA ESTES CAMINHOS para apontar para os teus ficheiros
-FICHEIRO_AUDIO = 'python/podcast/episode_1_san _francisco.wav'
-FICHEIRO_IMAGEM = 'python/podcast/episode_1_san _francisco.png'
-FICHEIRO_VIDEO_OUTPUT = 'python/podcast/episode_1_san _francisco.mp4' # Nome do ficheiro de vídeo que será criado
+FICHEIRO_AUDIO = 'podcast/episode_1_san _francisco.wav'
+FICHEIRO_IMAGEM = 'podcast/episode_1_san _francisco.png'
+FICHEIRO_VIDEO_OUTPUT = 'podcast/episode_1_san _francisco.mp4' # Nome do ficheiro de vídeo que será criado
 
 # --- Verifica se os ficheiros de entrada existem ---
 if not os.path.exists(FICHEIRO_AUDIO):
